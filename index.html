@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Krusty Krabs</title>
-    <link rel="icon" type="image/x-icon" href="assets/krusty_krab_logo.png">
+
+    <link rel="icon" type="image/x-icon" href="assets/krusty_krab_logo.png" />
+
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/style/style.css" />
     <link
@@ -33,15 +35,19 @@
 
           <ul class="navbar-nav ms-auto">
             <li class="nav-item me-5">
-              <a href="#home" class="nav-link active" aria-current="page"
-                >Home</a
+              <a href="#home" class="nav-link"
+                ><i class="bi bi-house-door"></i>Home</a
               >
             </li>
             <li class="nav-item me-5">
-              <a href="#produk" class="nav-link">Produk</a>
+              <a href="#promo" class="nav-link"
+                ><i class="bi bi-ticket-perforated"></i>Promo</a
+              >
             </li>
             <li class="nav-item me-5">
-              <a href="#promo" class="nav-link">Promo</a>
+              <a href="#service" class="nav-link"
+                ><i class="bi bi-fork-knife"></i>Service</a
+              >
             </li>
             <li class="nav-item me-5">
               <a href="#" class="nav-link"><i class="bi bi-cart"></i>Cart</a>
@@ -54,7 +60,7 @@
     <!-- banner buka -->
     <div class="container-fluid banner d-flex align-items-center" id="home">
       <div class="container">
-        <h2 class="text-light text-center display-4 mb-1">
+        <h2 class="text-light text-center display-6 mb-1">
           Welcome in Krusty Krabs Restourant
         </h2>
         <h3 class="text-light text-center display-8 mb-1">
@@ -80,8 +86,8 @@
     </div>
     <!-- banner tutup -->
 
-    <!-- promo -->
-    <div class="container-fluid py-5" id="promo">
+    <!-- section promo -->
+    <div class="container-fluid py-5 background-promo" id="promo">
       <div class="container">
         <h2 class="text-center">Promo this week</h2>
         <div class="row mt-5 justify-content-center">
@@ -170,6 +176,72 @@
       </div>
     </div>
     <!-- promo tutup -->
+
+    <!-- section service -->
+    <div
+      class="container-fluid py-5 main-color background-service"
+      id="service"
+    >
+      <div class="container">
+        <h2 class="text-light text-center mb-5">Pelayanan Kami</h2>
+        <div class="row justify-content-center">
+          <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="d-flex justify-content-center">
+              <div
+                class="icon-service d-flex align-items-center justify-content-center hovered-logo"
+              >
+                <i class="bi bi-bicycle display-5"></i>
+              </div>
+            </div>
+            <div class="mt-3 text-white text-center">
+              <h5>Delivery</h5>
+              <p>
+                Kami melayanin pengiriman ke berbagai sudut Bikini Bottom,
+                nikmati Krabby Patty tanpa harus keluar dari zona nyaman mu saat
+                ini
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="d-flex justify-content-center">
+              <div
+                class="icon-service d-flex align-items-center justify-content-center hovered-logo"
+              >
+                <i class="bi bi-basket display-5"></i>
+              </div>
+            </div>
+            <div class="mt-3 text-white text-center">
+              <h5>Take Away</h5>
+              <p>
+                Kami melayanin pemesanan take away, nikmati sajian lezat Krabby
+                Patty di manapun dan kapanpun anda berada
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+            <div class="d-flex justify-content-center">
+              <div
+                class="icon-service d-flex align-items-center justify-content-center hovered-logo"
+              >
+                <i class="bi bi-cup-straw display-5"></i>
+              </div>
+            </div>
+            <div class="mt-3 text-white text-center">
+              <h5>Dine In</h5>
+              <p>
+                Tempat yang nyaman, udara yang sejuk, dan Krabby Patty yang
+                lezat. Anda dapat menikmati hidangan di Krusty Krabs secara
+                langsung.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- service tutup -->
     <script src="bootstrap/bootstrap.bundle.min.js"></script>
   </body>
 </html>
