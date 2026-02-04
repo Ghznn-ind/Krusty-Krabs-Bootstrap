@@ -4,3 +4,53 @@
     background-size: cover;
     background-position: center;
 }
+
+.background-promo {
+    height: auto;
+    background-color: #d2f8ff;
+}
+
+.hovered-card .card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.hovered-card .card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.background-service {
+    height: auto;
+    background-color: #097e95;
+}
+
+.hovered-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.hovered-logo i {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.hovered-card:hover .hovered-logo {
+    background-color: #1ABC9C;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(26, 188, 156, 0.6);
+}
+
+.hovered-card:hover .hovered-logo i {
+    color: #0B3C49;
+}
+
+.icon-service{
+    width: 90px;
+    height: 90px;
+    border: solid #fff 2px;
+    border-radius: 50%;
+    color: #fff;
+}
